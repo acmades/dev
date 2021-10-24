@@ -1,6 +1,6 @@
 name:                learnhaskell
-version:             0.1.0.0
-github:              "acmades/learnhaskell"
+version:             0.1.0.1
+github:              "acmades/dev/learnhaskell"
 license:             BSD3
 author:              "Ivan Vazhenin"
 maintainer:          "acmades@ya.ru"
@@ -17,14 +17,16 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/learnhaskell#readme>
+description:         Please see the README on GitHub at <https://github.com/acmades/dev/learnhaskell#readme>
 
 dependencies:
 - base >= 4.7 && < 5
-- text
 
 library:
   source-dirs: src
+  exposed-modules:
+  - Lib
+  - Learn.Function.Func
 
 executables:
   learnhaskell-exe:
@@ -47,3 +49,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - learnhaskell
+    - hspec
