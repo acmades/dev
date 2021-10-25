@@ -1,6 +1,7 @@
 module Learn.Function.Func  where
 import Data.List
-import Data.Char
+import Data.List.Split (splitOn)
+import Data.Char ( toLower, toUpper )
 
 {- 1
     Implement a function that accepts 3 integer values a, b, c. The function should 
@@ -81,6 +82,9 @@ tribonacci :: Num a => (a, a, a) -> Int -> [a]
 tribonacci (a, b, c) n = take n (fibs (a, b, c))
 -- It works for 10 seconds for 10^8 values. It's better! --
 
+--tribonacci (a, b, c) n = a:tribonacci (b,c,a+b+c) (n-1)
+-- It works for 10 seconds for 10^7 values.
+
 {- 7
     A string is considered to be in title case if each word in the string is either 
     (a) capitalised (that is, only the first letter of the word is in upper case) or 
@@ -97,3 +101,22 @@ titleCase minor title = toUpperHead (unwords ([passOrCapitalize x | x <- titleLo
           toUpperHead (a:b)  = toUpper a : b
           toUpperHead []     = []
           passOrCapitalize y = if y `elem` minorLow  then y else toUpperHead y
+
+-------------------------------------------------------------------------------------
+
+{- 1
+    Let's assume that a song consists of some number of words (that don't contain WUB).
+    For example, a song with words "I AM X" can transform into a dubstep remix as 
+    "WUBWUBIWUBAMWUBWUBX" and cannot transform into "WUBWUBIAMWUBX".
+    Recently, Jonny has heard Polycarpus's new dubstep track, but since he isn't into 
+    modern music, he decided to find out what was the initial song that Polycarpus remixed. 
+    Help Jonny restore the original song.
+-}
+songDecoder :: String -> String
+songDecoder str = unwords [x | x<-splitOn "WUB" str, x /=""]
+
+{- 2
+    Write a function that takes a string of braces, and determines if the order of the 
+    braces is valid. It should return true if the string is valid, and false if it's invalid.
+    A string of braces is considered valid if all braces are matched with the correct brace.
+-}

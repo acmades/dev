@@ -70,7 +70,7 @@ spec = do
     tribonacci (1, 2, 3) 10 `shouldBe` [1,2,3,6,11,20,37,68,125,230]
     tribonacci (3, 2, 1) 10 `shouldBe` [3,2,1,6,9,16,31,56,103,190]
     tribonacci (1, 1, 1) 1 `shouldBe` [1]
-    tribonacci (300, 200, 100) 0 `shouldBe` []-}
+    tribonacci (300, 200, 100) 0 `shouldBe` []
   
   it "titleCase" $ do
     titleCase "" "" `shouldBe` ""
@@ -80,4 +80,14 @@ spec = do
     titleCase "BC" "a bc" `shouldBe` "A bc"
     titleCase "an often into" "First a of in" `shouldBe` "First A Of In"
     titleCase "a an the OF" "a clash of KINGS" `shouldBe` "A Clash of Kings"
-    titleCase "xyz fox quick the" "the QUICK bRoWn fOX" `shouldBe` "The quick Brown fox"
+    titleCase "xyz fox quick the" "the QUICK bRoWn fOX" `shouldBe` "The quick Brown fox"-}
+
+  it "songDecoder" $ do
+    songDecoder "AWUBBWUBC" `shouldBe` "A B C"
+    songDecoder "AWUBWUBWUBBWUBWUBWUBC" `shouldBe` "A B C"
+    songDecoder "WUBAWUBBWUBCWUB" `shouldBe` "A B C"
+    songDecoder "AWUBAWUBA" `shouldBe` "A A A"
+    songDecoder "WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB"
+      `shouldBe` "WE ARE THE CHAMPIONS MY FRIEND"
+    songDecoder "NEVERWUBWUBGONNAWUBGIVEWUBWUBYOUWUBWUBUPWUBWUBNEVERWUBWUBWUBWUBGONNAWUBWUBLETWUBWUBYOUWUBWUBDOWN"
+      `shouldBe` "NEVER GONNA GIVE YOU UP NEVER GONNA LET YOU DOWN"  
