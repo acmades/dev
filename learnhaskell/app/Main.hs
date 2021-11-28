@@ -1,11 +1,8 @@
 module Main where
 
-validBraces :: String -> Bool
-validBraces xs = error "todo: validBraces"
-
 main :: IO ()
 main = do
-    print ( "(){}[]")
+  print ()
 
 
 {-

@@ -71,19 +71,10 @@ solution (x:s:xs) = [x, s] : solution xs
 --    fibs r@(i,j,k) = i:j:k:next (fibs r)
 --    where
 --        next (a : t@(b : c : _)) = (a+b+c) : next 
--- It works for 10 seconds for 10^4 values. Hmm...--
-sel1 :: (a,a,a) -> a
-sel1 (x,_,_) = x
-
-fibs :: Num b => (b, b, b) -> [b]
-fibs (i,j,k) = map sel1 (iterate (\(a,b,c) -> (b,c,a+b+c)) (i,j,k))
-
 tribonacci :: Num a => (a, a, a) -> Int -> [a]
-tribonacci (a, b, c) n = take n (fibs (a, b, c))
--- It works for 10 seconds for 10^8 values. It's better! --
-
+tribonacci (x, y, z) n = take n $ map sel1 $ iterate (\(a,b,c) -> (b,c,a+b+c)) (x, y, z)
+    where sel1 (a,_,_ ) = a
 --tribonacci (a, b, c) n = a:tribonacci (b,c,a+b+c) (n-1)
--- It works for 10 seconds for 10^7 values.
 
 {- 7
     A string is considered to be in title case if each word in the string is either 

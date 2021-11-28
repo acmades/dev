@@ -1,0 +1,32 @@
+2021-11-04 22:33:24.231940100000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:33:24.261946200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-04 22:35:39.296842400000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:35:39.324881400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-04 22:36:06.165925200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:36:06.199968000000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-04 22:36:22.665599300000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:36:22.741616800000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-04 22:37:48.079216500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:37:53.753891500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:37:53.781897700000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-04 22:37:59.335712100000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:01.460479700000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:02.561153800000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:19.954868200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:19.979021900000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-04 22:38:27.090784200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:49.702381500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:50.963446400000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:52.462828800000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:38:53.372208200000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:40:00.910851400000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\learnhaskell\app\Main.hs> [])
+2021-11-04 22:40:00.937859400000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-07 18:59:17.663700600000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:17.693858500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2021-11-07 18:59:25.461730700000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:26.787096300000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:26.998110500000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:27.186583800000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:27.383145600000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:27.523035700000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
+2021-11-07 18:59:30.132398900000 [$pid(ThreadId 5)] ERROR APP - user error (<getModule> loaded module can not find from path. <c:\dev\codewars\app\Main.hs> [])
